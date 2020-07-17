@@ -7,3 +7,7 @@
 # end
 #     true
 # end
+
+require 'prime'
+
+prime.prime?(2)
