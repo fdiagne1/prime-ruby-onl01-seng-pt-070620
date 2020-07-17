@@ -3,7 +3,7 @@ def prime_numbers(integer)
   
   while i < integer
     return false if integer % i == 0
-  else
-    true
+    i += 1
 end
+    true
 end
