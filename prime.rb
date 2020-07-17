@@ -9,12 +9,13 @@
 # end
 
 
-def prime? (i)
-    if i <= 1
-        false
-    elsif n == 2
-        true
-    else 
-        (2..n/2).none? { |i| n % i == 0}
-    end
+def prime?(i)
+  if i <= 1
+  return false
+
+  else (2..i-1).to_a.all? do |integer|
+   n % integer != 0
+
+   end
+  end
 end
