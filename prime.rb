@@ -1,7 +1,7 @@
-def prime_numbers(num)
+def prime_numbers(integer)
   i = 2
   
-  while i < num
-    return false if 
+  while i < integer
+    return false if integer % i
 end
 end
