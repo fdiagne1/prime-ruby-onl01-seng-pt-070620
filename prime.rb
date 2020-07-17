@@ -9,8 +9,8 @@
 # end
 
 
-def prime? (n)
-    if n <= 1
+def prime? (i)
+    if i <= 1
         false
     elsif n == 2
         true
